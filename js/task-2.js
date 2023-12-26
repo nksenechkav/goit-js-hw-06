@@ -18,8 +18,10 @@ class Storage {
         if (index !== -1) {
           this.#items.splice(index, 1);
         }
-      }
+    }
 }
+
+
 const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
 
 console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]

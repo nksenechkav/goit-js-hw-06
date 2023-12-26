@@ -21,7 +21,7 @@ const customer = {
       this.orders.push(order);
     },
    
-  };
+};
   
   customer.setDiscount(0.15);
   console.log(customer.getDiscount()); // 0.15
